@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+p {
+  margin-bottom: 0;
+}
+section > .container {
+  width: 90%;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+/* Banner */
+.banner {
+  /* position: relative; */
+  display: flex;
+  text-align: center;
+  padding: 100px 100px;
+}
+.name {
+  padding-left: 100px;
+  padding-top: 100px;
+  /* position: absolute; */
+  /* top: 300px; */
+  /* left: 300px; */
+  color: pink;
+}
+.nickname {
+  padding-top: 100px;
+  /* position: absolute; */
+  /* top: 300px; */
+  /* right: 450px; */
+  color: pink;
+}
+.img {
+  position: relative;
+  text-align: center;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar a {
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  align-self: stretch;
+  border-collapse: collapse;
+  border-left: 0.1px solid #9e717127;
+  border-right: 0.1px solid #9e717127;
+}
+.navimg {
+  flex-basis: 300px;
+  /* padding-top: 10px;
+  padding-right: 10px; */
+}
+.nav {
+  flex-basis: 120px;
+  font-size: 14px;
+  padding-top: 15px;
+  padding: 100px;
+}
+.navbar a:hover {
+  cursor: pointer;
+  color: pink;
+}
+
+.imgavt {
+  transform: scale(7);
+  border: 1px solid white;
+  border-radius: 50%;
+}
+/* info */
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  padding: 40px;
+}
+.gioithieu p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.thongtincanhan {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.form p {
+  padding-top: 10px;
+  color: grey;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 50rem;
+}
+.form_input {
+  padding: 10px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 4px;
+  outline: none;
+  font-size: 20px;
+}
+.form_submit {
+  padding: 10px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  width: 60%;
+  background-color: pink;
+  color: white;
+}
+.hidden {
+  display: none;
+}
+/* ảnh, kỉ niệm */
+.anh {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 40px 40px;
+}
+/*  kết */
+.ket-content {
+  font-size: 18px;
+  padding: 20px 20px;
+}
+/* footer */
+#footer {
+  margin-bottom: 40px;
+  padding: 40px 40px;
+}
+.nav-link {
+  text-align: center;
+  width: auto;
+}
+.nav-link li {
+  display: inline-block;
+  padding: 20px;
+}
+.kett {
+  position: relative;
+}
+.img-hoa {
+  position: absolute;
+  left: 20px;
+}

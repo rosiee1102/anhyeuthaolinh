@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .banner {
+    display: block;
+    height: auto;
+  }
+  .nav-img {
+    display: none;
+  }
+  .navbar {
+    display: block;
+    height: auto;
+    border-bottom: none;
+  }
+  .navbar a {
+    /* display: block; */
+    border: none;
+    text-align: left;
+    padding: 5px;
+  }
+  #info {
+    padding: 20px 20px;
+  }
+  .a {
+    width: 100px;
+  }
+  .vid {
+    width: 100px;
+  }
+}
